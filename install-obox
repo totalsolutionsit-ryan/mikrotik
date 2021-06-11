@@ -1,6 +1,4 @@
 /tool fetch mode=https url="https://raw.githubusercontent.com/tsit-ryan/routeros/master/functions/obox";
-:delay 1000ms;
 /system script add name=obox source=[/file get obox contents];
-:delay 1000ms;
 /file remove obox;
 /system script run "obox"
