@@ -1,1 +1,1 @@
-:global $obox do={:put "test"}
+:global obox do={:put "test"}
